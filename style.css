@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* модель блока,когда padding внутри элемента а не снаружи*/
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 70px;
+    background-color: lightgreen;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+h1 {
+    text-align: center;
+}
+h1:hover{
+    color: khaki;
+    font-size: 50px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item { 
+    width: calc(50% - 20px); /* ширина */
+    height: calc(100vh / 2.5); /* высот */ /* 33vh - высота рабочего окна браузера */
+    background-color: cornflowerblue;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    border-radius: 8px;
+
+}
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5) /* */
+
+}
+.item-1{
+    background-image: url(./images/bild1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-2{
+    background-image: url(./images/bild2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-3{
+    background-image: url(./images/bild3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-4{
+    background-image: url(./images/bild4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-5{
+    background-image: url(./images/bild5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-6{
+    background-image: url(./images/bild6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-7{
+    background-image: url(./images/bild7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-8{
+    background-image: url(./images/bild8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+display: flex
+
+
+
+
+*/
+
+
+
+
